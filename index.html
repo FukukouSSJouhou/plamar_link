@@ -16,13 +16,13 @@
         </script>
         <script>
             function Detectkun(){
-                let os=getMobileOperatingSystem();
+                var os=getMobileOperatingSystem();
                 if(os == 0) {
                     //Android
                     window.location.href="https://fukukoussjouhou.github.io/plamar_link/android.html";
                 }else if(os == 1){
                     window.location.href="https://fukukoussjouhou.github.io/plamar_link/ios.html";
-                }else if(os == 1){
+                }else if(os == 2){
                     window.location.href="https://fukukoussjouhou.github.io/plamar_link/unknown.html";
                 }
             }
